@@ -24,6 +24,7 @@
         '("--background-index"
           "--clang-tidy"
           "--header-insertion=never"
+            "--header-insertion=iwyu"   ;; 关键配置：自动 include
           "--completion-style=detailed"
           "--compile-commands-dir=build"
           "--query-driver=/usr/bin/g++"))
